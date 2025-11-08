@@ -9,8 +9,8 @@ public class CalculatorInmultireTest {
     @Test
     public void addPositiveIntegersTest() {
         CalculatorInmultire calculator = new CalculatorInmultire();
-        int result = calculator.add(5, 5);
-        Assert.assertEquals(25, result);
+        int result = calculator.divide(10, 5);
+        Assert.assertEquals(2, result);
 
 
     }
